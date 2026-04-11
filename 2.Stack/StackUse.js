@@ -1,0 +1,10 @@
+import Stack from "./index.js"
+
+const stack = new Stack()
+stack.push(21)
+console.log("peek result:",stack.peek())
+console.log("pop result:",stack.pop())
+console.log("peek result:",stack.peek())
+stack.push(21)
+console.log("isEmpty result:",stack.isEmpty())
+console.log("size result:",stack.size())
